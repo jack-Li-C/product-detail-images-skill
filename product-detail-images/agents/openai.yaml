@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Detail Images"
+  short_description: "Generate faithful product detail image sets"
+  default_prompt: "Use $product-detail-images to create detail images for this product URL or brief."

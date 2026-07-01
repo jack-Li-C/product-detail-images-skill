@@ -1,0 +1,12 @@
+.DS_Store
+.env
+*.log
+
+# Generated images and local product references should not be committed by default.
+outputs/
+generated/
+references-local/
+*.png
+*.jpg
+*.jpeg
+*.webp
