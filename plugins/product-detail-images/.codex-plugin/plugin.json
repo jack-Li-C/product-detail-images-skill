@@ -1,0 +1,42 @@
+{
+  "name": "product-detail-images",
+  "version": "1.0.0",
+  "description": "Generate source-faithful product detail image sets for ecommerce and B2B product pages.",
+  "author": {
+    "name": "jack-Li-C",
+    "email": "283877546+jack-Li-C@users.noreply.github.com",
+    "url": "https://github.com/jack-Li-C"
+  },
+  "homepage": "https://github.com/jack-Li-C/product-detail-images-skill",
+  "repository": "https://github.com/jack-Li-C/product-detail-images-skill",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "openai",
+    "agent-skills",
+    "codex-plugin",
+    "product-images",
+    "ecommerce",
+    "ai-image-generation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Product Detail Images",
+    "shortDescription": "Generate faithful ecommerce detail image sets",
+    "longDescription": "A Codex plugin that helps create ordered product detail image sets from confirmed product facts and real product reference photos. It emphasizes source-faithful visuals, appearance locking, clear feature slides, and avoiding invented product structures or unsupported marketing claims.",
+    "developerName": "jack-Li-C",
+    "category": "Productivity",
+    "capabilities": [
+      "Image generation",
+      "Ecommerce content",
+      "Product marketing"
+    ],
+    "websiteURL": "https://github.com/jack-Li-C/product-detail-images-skill",
+    "defaultPrompt": [
+      "Create product detail images for this product URL.",
+      "Use this product brief and photos to make a 5-image set.",
+      "Plan source-faithful ecommerce feature posters."
+    ],
+    "brandColor": "#2563EB"
+  }
+}
